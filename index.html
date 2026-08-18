@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Bloom &amp; Balance Boutique</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+</head>
+
+<body>
+
+    <section
+        id="home"
+        class="hero"
+    >
+
+        <header class="hero-header">
+
+            <a
+                href="#home"
+                class="brand"
+                aria-label="Bloom and Balance Boutique home"
+    >
+
+                <span
+                    class="brand-icon"
+                    aria-hidden="true"
+                >
+                    ♡
+                </span>
+
+                <span class="brand-name">
+                    Bloom &amp; Balance
+                </span>
+
+                <span class="brand-subtitle">
+                    Boutique
+                </span>
+
+                <span class="brand-tagline">
+                    Nourish your mind, body &amp; soul
+                </span>
+
+            </a>
+
+            <nav
+                class="navbar"
+                aria-label="Main navigation"
+>
+
+                <ul class="nav-links">
+
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#products">Shop</a>
+                    </li>
+
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    
+                </ul>
+
+                <button class="cart" aria-label="Shopping cart">
+                    🛒 Cart (<span id="cart-count">0</span>)
+                </button>
+
+            </nav>
+
+        </header>
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                A softer way to care for yourself
+            </p>
+
+            <h1>
+                Mindful products for
+                <br>
+                your everyday
+                <em>self-care.</em>
+            </h1>
+
+            <p class="hero-description">
+                Shop journals, planners, candles, teas, and other products
+                created to help you slow down and recharge.
+            </p>
+
+            <a
+                href="#products"
+                class="shop-button"
+            >
+                Shop Now
+            </a>
+
+        </div>
+
+    </section>
+
+    <main>
+
+        <section
+            id="products"
+            class="products-section"
+        >
+
+            <div class="section-heading">
+
+                <p class="section-kicker">
+                    Curated with care
+                </p>
+
+                <h2>
+                    Shop Our Products
+                </h2>
+
+                <p>
+                    Thoughtful self-care essentials designed to support rest,
+                    reflection, organization, and everyday wellness.
+                </p>
+
+            </div>
+
+            <div class="search-area">
+
+                <label for="search-input">
+                   Search Products
+                </label>
+
+                <input
+                    type="search"
+                    id="search-input"
+                    placeholder="Search by product name or category..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+            <p
+                id="status-message"
+                class="status-message"
+                role="status"
+                aria-live="polite"
+            ></p>
+
+            <div
+                id="product-list"
+                class="product-grid"
+            >
+                <!-- Products from products.csv will appear here. -->
+            </div>
+
+        </section>
+
+        <section
+            id="about"
+            class="information-section"
+        >
+
+        <div>
+
+            <p class="section-kicker">
+                About the boutique
+            </p>
+
+            <h2>
+                About Bloom &amp; Balance
+            </h2>
+
+            </div>
+
+            <p>
+               Bloom &amp; Balance Boutique provides thoughtful self-care
+               products that support relaxation, reflection, organization,
+               and personal wellness. My goal is to create a calm and simple
+               shopping experience that feels welcoming from the first click.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer id="contact">
+
+        <p>
+            &copy; 2026 Bloom &amp; Balance Boutique
+        </p>
+
+        <p>
+           Contact | Privacy Policy
+        </p>
+
+    </footer>
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <button id="close-cart" class="close-cart" aria-label="Close shopping cart">
+                &times;
+            </button>
+
+            <h2>Your Shopping Cart</h2>
+
+            <div id="cart-items">
+                <p>Your cart is currently empty.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
