@@ -270,9 +270,10 @@ margin: 0 0 24px;
 .hero-description {
 font-size: 1.05rem;
 line-height: 1.6;
+width: 100%;
 max-width: 100%;
+overflow-wrap: break-word;
 }
-
 .shop-button {
 padding: 15px 28px;
 }
