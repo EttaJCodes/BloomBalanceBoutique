@@ -212,8 +212,9 @@ padding:30px;
 .hero {
 min-height: 100vh;
 display: block;
-padding: 25px 24px 70px;
+padding: 40px 0 70px;
 background-position: center top;
+overflow: hidden;
 }
 
 .hero-header {
@@ -253,10 +254,10 @@ margin: 8px auto 0;
 }
 
 .hero-content {
-width: 100%;
-max-width: 100%;
+width: auto;
+max-width: none;
 margin-top: 150px 0 0;
-padding: 0 18px;
+padding: 0 32px;
 text-align: left;
 }
 
